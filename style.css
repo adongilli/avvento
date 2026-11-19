@@ -175,9 +175,9 @@ body{
 }
 
 .cont{
-    color: var(--white);
-    justify-self: center;
-    font-size: 1.2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .title{
