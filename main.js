@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "Gingerbread man ricetta",
             image: "",
             text: "",
-            pdf: ""
+            pdf: "",
+            download: true
         },
         {
             day: 2,
@@ -230,6 +231,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const content = document.createElement("div");
         content.className = "cont";
         content.innerHTML=`<h2 class="title">${d.title}</h2>`;
+        if(download === true){
+            content.innerHTML=`<img class="logo-download src="icon-download.png">`;
+            };
         back.appendChild(content);
     }
 
