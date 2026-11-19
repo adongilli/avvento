@@ -179,3 +179,10 @@ body{
     justify-self: center;
     font-size: 1.2rem;
 }
+
+.title{
+	justify-self: center;
+    color: var(--white);
+    text-shadow: 1px 1px 5px #780000;
+    font-size: 1.2rem;
+}
