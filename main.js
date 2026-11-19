@@ -232,8 +232,8 @@ document.addEventListener("DOMContentLoaded", () => {
         content.className = "cont";
         content.innerHTML=`<h2 class="title">${d.title}</h2>`;
         if(download === true){
-            content.innerHTML=`<img class="logo-download" src="icon-download.png">`;
-            };
+            content.innerHTML=`<a download=""><img class="logo-download" src="icon-download.png"></a>`;
+            }; 
         back.appendChild(content);
     }
 
